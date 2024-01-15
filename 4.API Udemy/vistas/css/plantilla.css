@@ -1,0 +1,84 @@
+/* Global */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+.listaSubcategorias a {
+	text-decoration: none;
+	list-style: none;
+}
+
+/* Color plantilla */
+.backColor, .backColor a {
+	background: #d4433b;
+	color: white;
+}
+
+/* Puntos de quiebre */
+
+/* ESCRITORIO (XL revisamos en 1366px en adelante) */
+@media (min-width:1200px) {
+	header {
+		height:70xp;
+	}
+
+	#modalCategorias .modal-content{
+		margin-top: 54px;
+	}
+}
+
+/* TABLET HORIZONTAL (LG revisamos en 1024px) */
+@media (max-width:1199px) and (min-width:992px) {
+	header {
+		height:70px;
+	}
+
+	.logotipo img {
+		margin-top: 2px;
+	}
+
+	#modalCategorias .modal-content{
+		margin-top: 54px;
+	}
+}
+
+/* TABLET VERTICAL (MD revisamos en 768px) */
+@media (max-width:991px) and (min-width:768px) {
+	header {
+		height:70px;
+	}
+
+	#modalCategorias .modal-content {
+		margin-top: 63px;
+	}
+}
+
+/* MÓVIL HORIZONTAL (SM revisamos en 576px) */
+@media (max-width:767px) and (min-width:576px) {
+	header {
+		height:70px;
+	}
+
+	.logotipo img {
+		margin-top: -6px;
+	}
+
+	#modalCategorias .modal-content {
+		margin-top: 63px;
+	}
+}
+
+/* MOVIL VERTICAL (revisamos en 320px) */
+@media (max-width:575px) {
+	#modalCategorias .modal-content {
+		margin-top: 124px;
+	}
+}
+ 
+
+
